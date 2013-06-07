@@ -1,0 +1,61 @@
+<!-- Borrowed originally from http://github.com/ngerakines/commitment -->
+<html>
+  <head>
+    <title>Commit The Win!</title>
+    <script src="messages.js"></script>
+    <style>
+body {
+  text-align: center;
+  margin: 1em 0 0 0;
+  vertical-align: middle;
+  font-family: 'Lucida Console', 'Courier New';
+  font-size: 26pt;
+  font-style: normal;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0;
+  word-spacing: 0;
+  line-height: 1.2;
+}
+#content {
+  width: 760px;
+  text-align: left;
+  margin: 1em auto;
+}
+#metabox {
+  font-size: 50%;
+  color: #ddd;
+}
+#metabox:hover {
+  color: #777;
+}
+#metabox a {
+  text-decoration: underline;
+  color: inherit;
+}
+#metabox a:hover {
+  color: #000;
+}
+    </style>
+  </head>
+  <body>
+    <div id="content">
+      <p id="msgbox"></p>
+      <p id="metabox"></p>
+    </div>
+    <script type="text/javascript">
+      window.onload=function(){
+        msg = getRandomMessage();
+        document.getElementById('msgbox').innerHTML = msg[0];
+        var meta = "";
+        if (msg[1] != null) {meta = meta + "by " + msg[1];};
+        if (meta.length != 0) {meta = meta + " "};
+        if (msg[2] != null) {meta = meta + "about " + msg[2];};
+        if (meta.length != 0) {meta = meta + " "};
+        if (msg[3] != null) {meta = meta + "on " + msg[3].toDateString();};
+        document.getElementById('metabox').innerHTML = meta;
+        };
+    </script>
+  </body>
+</html>
