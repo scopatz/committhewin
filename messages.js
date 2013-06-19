@@ -1,5 +1,6 @@
 var pytables = '<a href="http://pytables.github.io/">PyTables</a>';
 var cyclus = '<a href="http://cyclus.github.io/">Cyclus</a>';
+var xdress = '<a href="http://xdress.org/">XDress</a>';
 
 // Row elements have form:
 //   * comment
@@ -17,6 +18,8 @@ var msgs = [
      "{Private}", pytables, new Date(2013, 6, 2, 0, 0, 0, 0)], 
     ["I look forward to learning from your development experience.", 
      "{Private}", cyclus, new Date(2013, 6, 13, 0, 0, 0, 0)],
+    ["You are doing an excellent job with xdress and it does have a lot of potential.", 
+     "Sunil Kamalakar", xdress, new Date(2013, 6, 19, 0, 0, 0, 0)],
     ];
 
 function getRandomMessage(){
