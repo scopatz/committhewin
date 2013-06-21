@@ -20,6 +20,9 @@ var msgs = [
      "{Private}", cyclus, new Date(2013, 6, 13, 0, 0, 0, 0)],
     ["You are doing an excellent job with xdress and it does have a lot of potential.", 
      "Sunil Kamalakar", xdress, new Date(2013, 6, 19, 0, 0, 0, 0)],
+    ["you are a great organizer and conference host, i can already tell ;)", 
+     "{Private}", '<a href="http://conference.scipy.org/scipy2013/">SciPy 2013</a>', 
+     new Date(2013, 6, 20, 0, 0, 0, 0)], 
     ];
 
 function getRandomMessage(){
