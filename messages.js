@@ -23,6 +23,9 @@ var msgs = [
     ["you are a great organizer and conference host, i can already tell ;)", 
      "{Private}", '<a href="http://conference.scipy.org/scipy2013/">SciPy 2013</a>', 
      new Date(2013, 6, 20, 0, 0, 0, 0)], 
+    ["You are geniuses and you are the best organizers in the world!", 
+     "{Private}", '<a href="http://conference.scipy.org/scipy2013/">SciPy 2013</a>', 
+     new Date(2013, 6, 30, 0, 0, 0, 0)], 
     ];
 
 function getRandomMessage(){
