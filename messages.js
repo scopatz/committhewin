@@ -39,6 +39,8 @@ var msgs = [
      "Andy Terrel", scipy2013, new Date(2013, 6, 26, 0, 0, 0, 0)], 
     ["One thing I loved at +ScipyConference was I could put a face on all these names I have been seeing in open source contributions and online!",
      "Marianne Corvellec", scipy2013, new Date(2013, 7, 2, 0, 0, 0, 0)], 
+    ["#scipy2013 was probably one of the best conferences I have ever been to.",
+     "Damon McDougall", scipy2013, new Date(2013, 6, 30, 0, 0, 0, 0)], 
     ];
 
 function getRandomMessage(){
