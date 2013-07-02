@@ -37,6 +37,8 @@ var msgs = [
      "Florian Rathgeber", scipy2013, new Date(2013, 6, 26, 0, 0, 0, 0)], 
     ["@scopatz Use Xdress to generate Clang AST bindings to use as the Xdress parser #scipy2013 (sickest hack yet!)",
      "Andy Terrel", scipy2013, new Date(2013, 6, 26, 0, 0, 0, 0)], 
+    ["One thing I loved at +ScipyConference was I could put a face on all these names I have been seeing in open source contributions and online!",
+     "Marianne Corvellec", scipy2013, new Date(2013, 7, 2, 0, 0, 0, 0)], 
     ];
 
 function getRandomMessage(){
